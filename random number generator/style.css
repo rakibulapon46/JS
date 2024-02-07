@@ -1,0 +1,24 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#myBtn{
+    font-size: 2rem;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#text1, #text2, #text3{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
