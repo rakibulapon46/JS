@@ -2,10 +2,10 @@
 
 let username = "BroCode";
 
-// .charAt()   (1,2,3....)
+// .charAt() //  (1,2,3....) => ("a,b,c,d,e,f...")  index number er letter show korbe
 console.log(username.charAt(3));
 
-// .indexOf()   ("a,b,c,d,e,f...")
+// .indexOf() //  ("a,b,c,d,e,f...") => (1,2,3....)  letter er index number show korbe
 console.log(username.indexOf("r"));
 
 // .lastIndexOf()   ("a,b,c,d,e,f...")
