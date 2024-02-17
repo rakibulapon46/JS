@@ -44,7 +44,16 @@ for (let i = fruits.length - 1; i >= 0; i--) {
 console.log("🚀 ~ file: index.js:44 ~ fruits:", fruits[i]);
 }
 
+for(let fruit of fruits){
+console.log("🚀 ~ file: index.js:48 ~ fruit:", fruit);
+}
+
+fruits.sort();
+for(let fruit of fruits){
+console.log("🚀 ~ file: index.js:53 ~ fruit:", fruit);
+}
+
 fruits.sort().reverse();
 for(let fruit of fruits){
-    console.log(fruit);
+console.log("🚀 ~ file: index.js:58 ~ fruit:", fruit);
 }
