@@ -2,7 +2,7 @@
     /* margin: 0;
     padding: 0; */
     box-sizing: border-box;
-    list-style: none;
+    /* list-style: none; */
 }
 
 body{
@@ -13,4 +13,9 @@ body{
     border: 3px solid;
     width: 100%;
     height: 125px;
+}
+
+#fruits{
+    border: 3px solid;
+    font-size: 30px;
 }
