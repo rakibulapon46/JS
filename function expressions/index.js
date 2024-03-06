@@ -58,3 +58,10 @@ function double(element, index, array) {
 numbers.forEach((element) => {
   console.log(element);
 });
+
+
+//! IIFE (Immediately Invokeable Function Expressions)
+
+// (function display(message) {
+//   console.log(message);
+// }) ("hi");
