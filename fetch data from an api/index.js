@@ -48,7 +48,7 @@ async function fetchData() {
     imgElement.src = pokemonSprite;
     imgElement.style.display = "block";
 
-    // console.log(data);
+    console.log(data);
   } catch (error) {
     console.error(error);
   }
